@@ -1,14 +1,8 @@
-# Spanish translation for django-registration.
-# Copyright (C) 2007, James Bennet
-# This file is distributed under the same license as the registration package.
-# Ernesto Rico Schmidt <e.rico.schmidt@gmail.com>, 2008.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: django-registration 0.3 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-11 00:19-0400\n"
+"POT-Creation-Date: 2011-03-29 11:04+0200\n"
 "PO-Revision-Date: 2008-03-11 00:19-0400\n"
 "Last-Translator: Ernesto Rico Schmidt <e.rico.schmidt@gmail.com>\n"
 "Language-Team: Español <de@li.org>\n"
@@ -16,51 +10,63 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: forms.py:38
-msgid "username"
+#: forms.py:19
+#, fuzzy
+msgid ""
+"I have read and agreed to the <a rel=\"external\" href=\"/en/conditions/"
+"terms/\">Terms of Service</a>"
+msgstr "He leído y acepto los términos de servicio"
+
+#: forms.py:38 forms.py:112
+msgid "Username can only contain alphanumeric characters and underscores"
+msgstr ""
+"Los nombres de usuarios sólo pueden contener letras, números y guiones bajos"
+
+#: forms.py:39 forms.py:113
+msgid "Username"
 msgstr "nombre de usuario"
 
-#: forms.py:41
-msgid "email address"
-msgstr "dirección de coreo electrónico"
+#: forms.py:42 forms.py:114 forms.py:201
+msgid "Email"
+msgstr ""
 
-#: forms.py:43
-msgid "password"
+#: forms.py:44 forms.py:117 forms.py:204
+msgid "Password"
 msgstr "contraseña"
 
-#: forms.py:45
-msgid "password (again)"
+#: forms.py:46 forms.py:119 forms.py:206
+msgid "Password (again)"
 msgstr "contraseña (otra vez)"
 
-#: forms.py:54
-msgid "Usernames can only contain letters, numbers and underscores"
-msgstr "Los nombres de usuarios sólo pueden contener letras, números y guiones bajos"
-
-#: forms.py:59
+#: forms.py:58 forms.py:131
 msgid "This username is already taken. Please choose another."
 msgstr "Este nombre de usuario ya está ocupado. Por favor escoge otro"
 
-#: forms.py:71
+#: forms.py:70 forms.py:153 forms.py:228
 msgid "You must type the same password each time"
 msgstr "Tienes que introducir la misma contraseña cada vez"
 
-#: forms.py:100
-msgid "I have read and agree to the Terms of Service"
-msgstr "He leído y acepto los términos de servicio"
+#: forms.py:115 forms.py:202
+msgid "Email (again)"
+msgstr "contraseña (otra vez)"
 
-#: forms.py:109
-msgid "You must agree to the terms to register"
-msgstr "Tienes que aceptar los términos para registrarte"
-
-#: forms.py:128
+#: forms.py:140 forms.py:215 forms.py:290
 msgid ""
 "This email address is already in use. Please supply a different email "
 "address."
 msgstr ""
-"La dirección de correo electrónico ya está siendo usada. Por favor"
-"proporciona otra dirección."
+"La dirección de correo electrónico ya está siendo usada. Por "
+"favorproporciona otra dirección."
 
-#: forms.py:153
+#: forms.py:156 forms.py:231
+msgid "You must type the same email address each time"
+msgstr "Tienes que introducir la misma contraseña cada vez"
+
+#: forms.py:188 forms.py:198 forms.py:275
+msgid "You must agree to the terms to register"
+msgstr "Tienes que aceptar los términos para registrarte"
+
+#: forms.py:316
 msgid ""
 "Registration using free email addresses is prohibited. Please supply a "
 "different email address."
@@ -68,18 +74,23 @@ msgstr ""
 "El registro usando una dirección de correo electrónico gratis está prohibido."
 "Por favor proporciona otra dirección."
 
-#: models.py:188
+#: models.py:246
 msgid "user"
 msgstr "usuario"
 
-#: models.py:189
+#: models.py:247
 msgid "activation key"
 msgstr "clave de activación"
 
-#: models.py:194
+#: models.py:252
 msgid "registration profile"
 msgstr "perfil de registro"
 
-#: models.py:195
+#: models.py:253
 msgid "registration profiles"
 msgstr "perfiles de registro"
+
+#~ msgid ""
+#~ "I have read and agreed to the <a href=\"/en/conditions/\">Terms of "
+#~ "Service</a>"
+#~ msgstr "He leído y acepto los términos de servicio"

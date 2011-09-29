@@ -1,13 +1,8 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-09-19 19:30-0500\n"
+"POT-Creation-Date: 2011-03-29 11:04+0200\n"
 "PO-Revision-Date: 2008-03-20 23:22+0800\n"
 "Last-Translator: hutuworm <hutuworm@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,63 +10,82 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: forms.py:38
-msgid "username"
-msgstr "用户名"
+#: forms.py:19
+#, fuzzy
+msgid ""
+"I have read and agreed to the <a rel=\"external\" href=\"/en/conditions/"
+"terms/\">Terms of Service</a>"
+msgstr "我已阅读并同意该服务条款"
 
-#: forms.py:41
-msgid "email address"
-msgstr "Email 地址"
-
-#: forms.py:43
-msgid "password"
-msgstr "密码"
-
-#: forms.py:45
-msgid "password (again)"
-msgstr "密码（重复）"
-
-#: forms.py:54
-msgid "Usernames can only contain letters, numbers and underscores"
+#: forms.py:38 forms.py:112
+msgid "Username can only contain alphanumeric characters and underscores"
 msgstr "用户名只能包含字母、数字和下划线"
 
-#: forms.py:59
+#: forms.py:39 forms.py:113
+msgid "Username"
+msgstr "用户名"
+
+#: forms.py:42 forms.py:114 forms.py:201
+msgid "Email"
+msgstr ""
+
+#: forms.py:44 forms.py:117 forms.py:204
+msgid "Password"
+msgstr "密码"
+
+#: forms.py:46 forms.py:119 forms.py:206
+msgid "Password (again)"
+msgstr "密码（重复）"
+
+#: forms.py:58 forms.py:131
 msgid "This username is already taken. Please choose another."
 msgstr "该用户名已被占用，请另选一个。"
 
-#: forms.py:68
+#: forms.py:70 forms.py:153 forms.py:228
 msgid "You must type the same password each time"
 msgstr "您必须输入两遍同样的密码"
 
-#: forms.py:96
-msgid "I have read and agree to the Terms of Service"
-msgstr "我已阅读并同意该服务条款"
+#: forms.py:115 forms.py:202
+msgid "Email (again)"
+msgstr "密码（重复）"
 
-#: forms.py:105
+#: forms.py:140 forms.py:215 forms.py:290
+msgid ""
+"This email address is already in use. Please supply a different email "
+"address."
+msgstr "该 Email 地址已有人使用，请提供一个另外的 Email 地址。"
+
+#: forms.py:156 forms.py:231
+msgid "You must type the same email address each time"
+msgstr "您必须输入两遍同样的密码"
+
+#: forms.py:188 forms.py:198 forms.py:275
 msgid "You must agree to the terms to register"
 msgstr "您必须同意注册条款"
 
-#: forms.py:124
-msgid "This email address is already in use. Please supply a different email address."
-msgstr "该 Email 地址已有人使用，请提供一个另外的 Email 地址。"
-
-#: forms.py:149
-msgid "Registration using free email addresses is prohibited. Please supply a different email address."
+#: forms.py:316
+msgid ""
+"Registration using free email addresses is prohibited. Please supply a "
+"different email address."
 msgstr "禁止使用免费 Email 地址注册，请提供一个另外的 Email 地址。"
 
-#: models.py:188
+#: models.py:246
 msgid "user"
 msgstr "用户"
 
-#: models.py:189
+#: models.py:247
 msgid "activation key"
 msgstr "激活密钥"
 
-#: models.py:194
+#: models.py:252
 msgid "registration profile"
 msgstr "注册信息"
 
-#: models.py:195
+#: models.py:253
 msgid "registration profiles"
 msgstr "注册信息"
 
+#~ msgid ""
+#~ "I have read and agreed to the <a href=\"/en/conditions/\">Terms of "
+#~ "Service</a>"
+#~ msgstr "我已阅读并同意该服务条款"

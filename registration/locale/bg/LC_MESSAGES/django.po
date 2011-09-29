@@ -1,13 +1,8 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-09-19 19:30-0500\n"
+"POT-Creation-Date: 2011-03-29 11:04+0200\n"
 "PO-Revision-Date: 2008-03-05 12:37+0200\n"
 "Last-Translator: Vladislav <vladislav.mitov@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,63 +11,84 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Bookmarks: -1,-1,-1,-1,10,-1,-1,-1,-1,-1\n"
 
-#: forms.py:38
-msgid "username"
-msgstr "Потребителско име "
+#: forms.py:19
+#, fuzzy
+msgid ""
+"I have read and agreed to the <a rel=\"external\" href=\"/en/conditions/"
+"terms/\">Terms of Service</a>"
+msgstr "Прочел съм и съм съгласен с условията за експлоатация"
 
-#: forms.py:41
-msgid "email address"
-msgstr "Електронна поща"
-
-#: forms.py:43
-msgid "password"
-msgstr "Парола"
-
-#: forms.py:45
-msgid "password (again)"
-msgstr "Парола (проверка)"
-
-#: forms.py:54
-msgid "Usernames can only contain letters, numbers and underscores"
+#: forms.py:38 forms.py:112
+msgid "Username can only contain alphanumeric characters and underscores"
 msgstr "Потребителските имена могат да съдържат букви, цифри и подчертавки"
 
-#: forms.py:59
+#: forms.py:39 forms.py:113
+msgid "Username"
+msgstr "Потребителско име "
+
+#: forms.py:42 forms.py:114 forms.py:201
+msgid "Email"
+msgstr ""
+
+#: forms.py:44 forms.py:117 forms.py:204
+msgid "Password"
+msgstr "Парола"
+
+#: forms.py:46 forms.py:119 forms.py:206
+msgid "Password (again)"
+msgstr "Парола (проверка)"
+
+#: forms.py:58 forms.py:131
 msgid "This username is already taken. Please choose another."
 msgstr "Потребителското име е заето. Моля изберето друго."
 
-#: forms.py:68
+#: forms.py:70 forms.py:153 forms.py:228
 msgid "You must type the same password each time"
 msgstr "Грешка при проверка на паролата."
 
-#: forms.py:96
-msgid "I have read and agree to the Terms of Service"
-msgstr "Прочел съм и съм съгласен с условията за експлоатация"
+#: forms.py:115 forms.py:202
+msgid "Email (again)"
+msgstr "Парола (проверка)"
 
-#: forms.py:105
+#: forms.py:140 forms.py:215 forms.py:290
+msgid ""
+"This email address is already in use. Please supply a different email "
+"address."
+msgstr "Адреса на електронната поща е използван. Моля въведете друг адрес."
+
+#: forms.py:156 forms.py:231
+msgid "You must type the same email address each time"
+msgstr "Грешка при проверка на паролата."
+
+#: forms.py:188 forms.py:198 forms.py:275
 msgid "You must agree to the terms to register"
 msgstr "Трябва да сте съгласни с условията за да се регистрирате."
 
-#: forms.py:124
-msgid "This email address is already in use. Please supply a different email address."
-msgstr "Адреса на електронната поща е използван. Моля въведете друг адрес."
+#: forms.py:316
+msgid ""
+"Registration using free email addresses is prohibited. Please supply a "
+"different email address."
+msgstr ""
+"Регистрациите с безплатни адреси е забранен. Моля въведете различен адрес за "
+"електронна поща"
 
-#: forms.py:149
-msgid "Registration using free email addresses is prohibited. Please supply a different email address."
-msgstr "Регистрациите с безплатни адреси е забранен. Моля въведете различен адрес за електронна поща"
-
-#: models.py:188
+#: models.py:246
 msgid "user"
 msgstr "Потребител"
 
-#: models.py:189
+#: models.py:247
 msgid "activation key"
 msgstr "Ключ за активация"
 
-#: models.py:194
+#: models.py:252
 msgid "registration profile"
 msgstr "регистрационен профил"
 
-#: models.py:195
+#: models.py:253
 msgid "registration profiles"
 msgstr "регистрационни профили"
 
+#~ msgid ""
+#~ "I have read and agreed to the <a href=\"/en/conditions/\">Terms of "
+#~ "Service</a>"
+#~ msgstr "Прочел съм и съм съгласен с условията за експлоатация"

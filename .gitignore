@@ -1,0 +1,172 @@
+########
+# Python
+########
+*.py[co]
+*.ipynb
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+var
+sdist
+bin
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+########################################
+# Unit test / coverage reports
+########################################
+link_coverage_be
+.coverage
+.tox
+
+.project
+.pydevproject
+pip-log.txt
+.settings
+.django.po-backup*
+.djangojs.po-backup*
+*.bak
+*.pot
+.sass-cache
+/.cache
+
+mobilife/_static
+mobilife/SMS
+mobilife/settings_local.py
+mobilife/pip-log.txt
+mobilife/media
+mvno/mobile_vikings/media
+mvno/mobile_vikings/SMS
+mvno/mobile_vikings/settings_local.py
+mvno/mobile_vikings/static/css
+mvno/mobile_vikings/_static
+mvne/vikingnl/static/vikingnl/css
+
+Thumbs.db
+/build
+/src
+/wheel
+/venv
+/mobilife/warnings.txt
+*~
+mobilife/media/welcome_letters/*
+mobilife/media/cdrs/*
+/.settings
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+deployment/latest.sql
+deployment/*.sql.gz
+
+# PyCharm settings
+.idea
+.idea/*
+
+#Mr Developer
+.mr.developer.cfg
+
+# Django extras
+*.log
+*.pot
+
+# backup files
+*.*~
+*.bak
+.*.sw[a-z]
+*.un~
+*.po-backup*
+
+# ctags tag files
+tags
+
+# Rope project files
+.ropeproject
+
+# Tushar tmp files
+,*
+
+#########
+# Eclipse
+#########
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# CDT-specific
+.cproject
+
+# Cloud9 settings
+.c9revisions
+.settings
+
+###################
+# Translation files
+###################
+*.mo
+*.po
+.sparkyclient.log
+translations_root/
+
+mobilife/locale
+mvne/locale
+mvne/vikingnl/locale
+mvno/mobile_vikings/locale
+
+###############
+# Test coverage
+###############
+cover/*
+.coverage.*
+dump.rdb
+.cache/
+
+mvno/mobile_vikings/settings/local_test_server.py
+deployment/fab_localhost.conf
+node_modules
+coverage.xml
+nosetests.xml
+fabfile/deployment/config/localhost.conf
+mvno/mobile_vikings/_vikingco_2015_static/
+mvno/mobile_vikings/_vikingco_2015media/
+celerybeat-schedule
+celerybeat.pid
+celeryev.pid
+/_gulp_static/
+
+
+###############
+# Tox Output
+###############
+test-reports/
+target/
